@@ -14,7 +14,7 @@ public class MultiDimension {
             2-D array is defined using int[][]
          */
 
-     //   int[][] arr= new int[3][3] //First bracket is for number of rows and othe is number of columns, number sof columns is not needed to be specified
+     //   int[][] arr= new int[3][3] //First bracket is for number of rows and other is number of columns, number sof columns is not needed to be specified
 
 //        int[][] arr= {
 //                {1,2,3},
