@@ -23,5 +23,5 @@ public class BinarySearch {
         return -1;
     }
 }
-//To check if the array is sorted ascending or descending in order then compare the first and last element of th array
+//To check if the array is sorted ascending or descending in order then compare the first and last element of the array
 // If first>last then it is descending array and if last>first then it is ascending array
