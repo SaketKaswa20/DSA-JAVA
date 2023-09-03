@@ -1,11 +1,15 @@
+import org.w3c.dom.ls.LSOutput;
+
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/
 public class PeakIndex {
+    public static void main(String[] args) {
+        int[] arr= {4,5,6,7,0,1,2};
+        System.out.println(BinarySearch(arr, 0, arr.length-1));
+    }
 
-}
-
-static int BinarySearch(int[] arr, int start, int end){
-        int start=0;
-        int end= arr.length-1;
+    static int BinarySearch(int[] arr, int start, int end){
+        start=0;
+        end= arr.length-1;
         while (start< end){
 //            int mid= start+end/2; since start+end can surpass the int limit range
             int mid= start+(end-start)/2;
