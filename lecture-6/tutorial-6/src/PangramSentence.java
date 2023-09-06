@@ -7,7 +7,7 @@ public class PangramSentence {
     }
 
     static boolean checkIfPangram(String sentence) { //Replace static with public when submitting on LeetCode
-        for (int i=97;i<=122;i++)
+        for (int i=97;i<=122;i++) //Based on ASCII value
         {
             if(sentence.indexOf((char)i)<0)
             {
